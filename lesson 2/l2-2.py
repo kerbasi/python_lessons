@@ -5,4 +5,3 @@ result = []
 for i in range(1, n + 1):
     result.append(3*i + 1)
 print(*result, sep=', ')
-print('итого получено')
