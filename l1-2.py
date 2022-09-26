@@ -1,14 +1,10 @@
-﻿import math
-from random import Random, random
-from xml.etree.ElementInclude import include
+﻿# Найти максимальное из пяти чисел.
 
+from random import random
 
-import math
-#Найти максимальное из 5 чисел
-numbers_list = [3,5,6,3,7]
+numbers_list = []
 for i in range(5):
-    numbers_list[i] = round(random() * 10)
-
+    numbers_list.append(round(random() * 100))
 
 print((numbers_list))
 print(max(numbers_list))
